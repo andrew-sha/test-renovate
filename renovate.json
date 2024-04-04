@@ -8,8 +8,8 @@
         "customType": "regex",
         "fileMatch": ["^setup.py$"],
         "matchStrings": ["SQLMESH_VERSION = .(?<currentValue>.*)."],
-        "datasourceTemplate": "github-releases",
-        "packageNameTemplate": "TobikoData/sqlmesh",
+        "datasourceTemplate": "pypi",
+        "packageNameTemplate": "sqlmesh",
         "depNameTemplate": "sqlmesh"
       }
     ]
